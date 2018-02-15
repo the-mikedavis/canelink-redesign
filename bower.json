@@ -1,0 +1,17 @@
+{
+  "name": "canelink-redesign",
+  "homepage": "https://github.com/the-mikedavis/canelink-redesign",
+  "authors": [
+    "Michael Davis <mcd164@miami.edu>"
+  ],
+  "description": "CIM594/799 Class project",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
