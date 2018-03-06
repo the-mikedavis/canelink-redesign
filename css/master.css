@@ -1,0 +1,81 @@
+@import "style.css";
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    text-decoration: none;
+}
+
+ul li{
+  font-family: 'Montserrat', sans-serif; 
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    text-align: right;
+    color: black;
+}
+
+/*link styling*/
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+/*link hover*/
+a:hover{
+    color:#417505;
+}
+
+li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#searchtitle {
+    color: #417505;
+}
+#classtitle {
+    color: black;
+}
+
+#resultstitle {
+    color: black;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:   "header"
+                          "main"
+                          "footer";
+  grid-template-rows:   1fr 1fr 1fr;
+  grid-template-columns:  100%;
+
+}
+
+
+main {
+  grid-area: main;
+  background-color: #417505;
+
+  display: grid;
+  grid-template-areas: "col1" "col2";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  padding-bottom: 20px;
+
+}
