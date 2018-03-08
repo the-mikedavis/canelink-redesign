@@ -5,52 +5,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/master.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <title>Search</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200" rel="stylesheet">
+    <title>Results</title>
 </head>
 
 <body>
     <div class="wrapper">
         <header class="main-head">
-            <figure> <img class="logo" src="design_assets/logo.png" alt="logo"> </figure>
-            <h1>Search for Classes</h1></header>
-
+            <nav class="main-nav">
+                <figure> <img class="logo" src="design_assets/logo.png"
+                 alt="logo"> </figure>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Student Center</a></li>
+                    <li><a href="#">Log out</a></li>
+                </ul>
+            </nav>
+            <h2>Class Selections</h2></header>
         <article class="content">
-            <section class="form">
-                <p><strong>Term</strong>
-                    <button class="button">Spring '18</button>
-                    <button class="button">Fall '18</button>
-                </p>
-                <p>Subject</p>
-                <input type="text" name="sub" class="box">
-                <p><strong>Course number</strong></p>
-                <p>
-                    <input type="text" name="course" value="">
-                    <button class="button">=</button>
-                    <button class="button">≤</button>
-                    <button class="button">≥</button>
-                    <button class="button">contains</button>
-                </p>
-                <p><strong>Course Career</strong></p>
-                <p>
-                    <button class="button">Undergraduate</button>
-                    <button class="button">Graduate</button>
-                    <button class="button">Medical</button>
-                    <button class="button">Law</button>
-                    <button class="button">Non-credit</button>
-                </p>
-            </section>
-            <section>
-            <form class="days" action="index.html" method="post">
-                <p>
-                    <input type="checkbox" name="1" value="1"> Show open classes only</p>
-                <p>
-                    <input type="checkbox" name="2" value="2"> Open entry/exit classes only</p>
-            </form>
-            </section>
-            <section class="advancedsearch"><h5>Advanced</h5></section>
+            <div class="block_1 hline-bottom"></div>
+            <p>
+                <center>
+                    <h3><strong>History of International Cinema II</strong></h3></center>
+            </p>
             <center>
-                <button class="searchbutton"><strong>Search</strong></button>
+                <table>
+                    <h3>
+                <thread>
+                    <tr>
+                        <th>Session</th>
+                        <td>Regular academic</td>
+                    </tr>
+                    <tr>
+                        <th>Career</th>
+                        <td>Undergraduate</td>
+                    </tr>
+                    <tr>
+                        <th>Grading</th>
+                        <td>Standard</td>
+                    </tr>
+                    <tr>
+                        <th>Units</th>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <th>Type</th>
+                        <td>Lecture</td>
+                    </tr>
+                    <tr>
+                        <th>Enrollment</th>
+                        <td>Arts and Humanities</td>
+                    </tr>
+                </thread>
+            </h3></table>
+            </center>
+            <br>
+            <article class="stuff">
+                <center>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sun</th>
+                                <th class="mon">Mon</th>
+                                <th>Tue</th>
+                                <th class="wed">Wed</th>
+                                <th>Thu</th>
+                                <th>Fri</th>
+                                <th>Sat</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </center>
+                <h4>
+            Professor: William Rothman
+            <p>MoWe 12:20PM - 1:35PM, Communication Intl 4035</p>
+            <p>Mo 6:25PM - 9:05PM, Communication Intl 3053</p>
+            <p>01/16/2018 - 04/27/2018</p>
+            </h4> </article>
+            <article class="stuff">
+                <center>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sun</th>
+                                <th class="mon">Mon</th>
+                                <th>Tue</th>
+                                <th>Wed</th>
+                                <th>Thu</th>
+                                <th>Fri</th>
+                                <th>Sat</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </center>
+                <h4>Professor: William Rothman</p>
+                <p>TuTh 11:00AM - 12:15PM, Communication Intl 3053</p>
+                <p>Tu 3:45PM - 4:45PM, TBA</p>
+                <p>01/16/2018 - 04/27/2018</p>
+                </h4> </article>
+            <br>
+            <center>
+                <button class="searchbutton">Continue</button>
             </center>
         </article>
     </div>

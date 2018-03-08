@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/master.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200" rel="stylesheet">
     <title>Search</title>
 </head>
 
@@ -13,15 +13,22 @@
     <div class="wrapper">
         <header class="main-head">
             <figure> <img class="logo" src="design_assets/logo.png" alt="logo"> </figure>
-            <h1>Search for Classes</h1></header>
-
+            <h1>Search for Classes</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Student Center</a></li>
+                    <li><a href="#">Log out</a></li>
+                </ul>
+            </nav>
+        </header>
         <article class="content">
             <section class="form">
                 <p><strong>Term</strong>
                     <button class="button">Spring '18</button>
                     <button class="button">Fall '18</button>
                 </p>
-                <p>Subject</p>
+                <p><strong>Subject</strong></p>
                 <input type="text" name="sub" class="box">
                 <p><strong>Course number</strong></p>
                 <p>
@@ -41,16 +48,17 @@
                 </p>
             </section>
             <section>
-            <form class="days" action="index.html" method="post">
-                <p>
-                    <input type="checkbox" name="1" value="1"> Show open classes only</p>
-                <p>
-                    <input type="checkbox" name="2" value="2"> Open entry/exit classes only</p>
-            </form>
+                <form class="days" action="index.html" method="post">
+                    <p>
+                        <input type="checkbox" name="1" value="1"> Show open classes only</p>
+                    <p>
+                        <input type="checkbox" name="2" value="2"> Open entry/exit classes only</p>
+                </form>
             </section>
-            <section class="advancedsearch"><h5>Advanced</h5></section>
+            <section class="advancedsearch">
+                <h5>Advanced</h5></section>
             <center>
-                <button class="searchbutton"><strong>Search</strong></button>
+                <button class="searchbutton">Search</button>
             </center>
         </article>
     </div>
