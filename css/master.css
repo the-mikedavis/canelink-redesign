@@ -27,6 +27,10 @@ h5 {
     text-decoration: underline;
 }
 
+.searchResults {
+    padding-left: 30px;
+}
+
 table.table1 tr,
 table.table1 td {
     border: 1px solid #417505;
@@ -139,7 +143,6 @@ a:active {
     grid-area: header;
     padding: 1px;
     justify-content: center;
-    display: flex;
 }
 
 .content {
