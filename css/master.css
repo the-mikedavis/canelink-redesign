@@ -143,7 +143,7 @@ a:active {
 }
 
 .content {
-    padding: 1px;
+    padding: 10px;
     grid-area: content;
 }
 
@@ -200,4 +200,5 @@ a:active {
 .content {
     background-color: #efefef;
     border-radius: 4px;
+    padding: 20px;
 }
