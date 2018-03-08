@@ -8,19 +8,13 @@ h1 {
     color: #417505;
 }
 
-h5 {
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    color: #417505;
-    text-decoration: underline;
-}
-
 .button {
     background-color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: .5em;
-    border: 0.5px solid #417505;
+    border: 1px solid #417505;
     border-radius: 4px;
+    text-decoration-color: darkgreen;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -32,7 +26,6 @@ h5 {
 
 button:active {
     background: #417505;
-    color: white;
 }
 
 .box {
@@ -40,7 +33,7 @@ button:active {
 }
 
 .searchbutton {
-    background-color: #6e8b3d;
+    background-color: #417505;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     border: none;
@@ -55,8 +48,8 @@ button:active {
     cursor: pointer;
 }
 
-.accordion {
-    
+button:active {
+    background-color: darkgreen;
 }
 
 .logo {
