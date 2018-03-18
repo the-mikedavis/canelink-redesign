@@ -85,9 +85,9 @@ button:active {
     width: 300px;
 }
 
-a,
-ul,
-li {
+nav a,
+nav ul,
+nav li {
     text-decoration: none;
     color: black;
     display: inline-flex;
