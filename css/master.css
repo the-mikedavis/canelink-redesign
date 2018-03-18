@@ -193,6 +193,9 @@ input[type="text"] {
     nav ul {
         flex-direction: row;
     }
+    article.content {
+        margin-bottom: 50px;
+    }
 }
 
 
