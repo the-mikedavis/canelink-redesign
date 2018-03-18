@@ -218,6 +218,13 @@ article.stuff table {
     nav ul {
         flex-direction: row;
     }
+    article.stuff {
+        margin: 0 10%;
+    }
+
+    article.content > p {
+        margin: 0 10%;
+    }
 }
 
 .main-nav {
