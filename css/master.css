@@ -149,6 +149,10 @@ a:active {
     grid-area: content;
 }
 
+article.content > p {
+    padding: 0 8%;
+}
+
 .main-nav {
     padding: 1px;
     grid-area: nav;
