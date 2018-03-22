@@ -95,7 +95,7 @@ nav li {
     text-decoration: none;
     color: black;
     display: inline-flex;
-    padding: 10px;
+    padding: 0 2px;
     justify-content: right;
 }
 
@@ -205,6 +205,11 @@ article.stuff table {
     }
     article.content {
         margin-bottom: 50px;
+    }
+    nav a,
+    nav ul,
+    nav li {
+        padding: 10px;
     }
 }
 
