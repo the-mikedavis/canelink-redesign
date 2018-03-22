@@ -31,6 +31,10 @@ h5 {
     padding-left: 30px;
 }
 
+figure {
+    align-content: center;
+}
+
 table.table1 {
     margin: 20px 0;
 }
@@ -140,6 +144,8 @@ a:active {
 
 .logo {
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .main-head {
