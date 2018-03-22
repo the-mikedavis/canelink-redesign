@@ -197,6 +197,13 @@ article.stuff table {
     border-radius: 3px;
 }
 
+/* only mobile rules */
+@media (max-width: 500px) {
+    h2 {
+        text-align: center;
+    }
+}
+
 
 /* tablet */
 
